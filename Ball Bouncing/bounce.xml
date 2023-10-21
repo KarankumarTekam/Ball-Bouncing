@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="10/11/23||20:39:26" using="Simscape Multibody Link Version 7.0" from="SolidWorks 30.3.1"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="ball simulation" uid="ball simulation" version="113">
+<AssemblyFile name="ball simulation.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="ground-1" uid="ground-1" grounded="true" entityUid="ground*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="ball-1" uid="ball-1" entityUid="ball*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0067256792467394787 0.39972068650885384 0.004215393170156137</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="ball" uid="ball*:*Default" version="137">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ball.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.059999999999999998</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>4.4259995930364001e-05 4.4259995930363987e-05 4.4259995930363987e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="ball_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.29803921568627451" g="0.29803921568627451" b="0.29803921568627451" a="1"/>
+<Diffuse r="0.29803921568627451" g="0.29803921568627451" b="0.29803921568627451" a="1"/>
+<Specular r="0.14901960784313725" g="0.14901960784313725" b="0.14901960784313725" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ground" uid="ground*:*Default" version="133">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ground.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>500.00000000000011</Mass>
+<CenterOfMass>0 0.01 0</CenterOfMass>
+<Inertia>1041.6833333333336 2083.3333333333339 1041.6833333333338 0 -1.9613940101711097e-13 0</Inertia>
+</MassProperties>
+<GeometryFile name="ground_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
